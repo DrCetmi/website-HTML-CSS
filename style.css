@@ -84,7 +84,6 @@ nav {
 #nav-links {
     float: right;
 }
-
 #nav-links .nav-item {
     float: left;
     margin: 0.5rem;
@@ -113,4 +112,36 @@ header {
 header h1 {
     color: #fff;
     font-size: 6rem;
+}
+
+header h2 {
+    color: #fff;
+    font-size: 2.4rem;
+    font-family: "Lato";
+    font-weight: 300;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+.star-light {
+    border: none;
+    border-top: 0.4rem solid;
+    border-radius: 10px;
+    max-width: 25rem;
+    margin: 2.5rem auto;
+    overflow: visible;
+    height: 0;
+}
+
+.star-light::after {
+    content: "\2605";
+    font-weight: 900;
+    color: #fff;
+    font-size: 3.2rem;
+    position: relative;
+    top: -28px;
+    padding: 0 8px;
+    background-color: #1abc9b;
 }
