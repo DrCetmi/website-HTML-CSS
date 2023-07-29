@@ -63,6 +63,16 @@ section {
     line-height: 2rem;
 }
 
+.btn-menu {
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: #1abc9b;
+    color: #fff;
+    border: none;
+}
+
 .btn-outline {
     color: #fff;
     border-color: #fff;
@@ -209,6 +219,41 @@ nav {
     color: #1abc9b;
 }
 
+#nav-links .nav-icon {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    #logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    #nav-links {
+        float: none;
+    }
+
+    #nav-links .nav-link {
+        font-size: 2rem;
+        padding-left: 0;
+    }
+
+    #nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    #nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        font-size: 3rem;
+    }
+}
+
+/* Header */
+
 header {
     background-color: #1abc9b;
     height: 700px;
@@ -268,9 +313,6 @@ hr.star-dark {
 }
 
 /* portfolio */
-
-#portfolio {
-}
 
 #portfolio h2 {
     font-size: 4.8rem;
